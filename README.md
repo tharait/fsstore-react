@@ -23,4 +23,4 @@ To build this application you will need `npm` installed in your computer.
 2. Change directory `cd` to the directory where `src` directory is present
 3. Run `npm install` to install dependencies
 4. Run `npm run build` to build a for production
-5. Then you will find production files inside 'dist' folder
+5. Then you will find production files inside 'build' folder
