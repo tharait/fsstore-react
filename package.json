@@ -1,0 +1,37 @@
+{
+  "name": "client-react",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "primeicons": "^4.1.0",
+    "primereact": "^6.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-ionicons": "^4.2.0",
+    "react-scripts": "^1.1.5",
+    "react-transition-group": "^4.4.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "sass": "^1.35.2",
+    "sass-loader": "^12.1.0"
+  }
+}

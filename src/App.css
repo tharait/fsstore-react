@@ -1,0 +1,129 @@
+@keyframes color-change {
+  0% { color: #ec0b1e; }
+  50% { color: #575a5f; }
+  100% { color: #ec0b1e; }
+}
+.fs-header {
+  padding: 0.5rem 0;
+}
+.fs-btn{
+  padding: 0.75rem 2rem;
+  background-color: #aaa;
+  color: #fff;
+  border:0;
+  font-weight: 500;
+  line-height: 1rem;
+  vertical-align: middle;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.fs-btn-sm {
+  padding: 0.5rem 1rem !important;
+  font-size: 0.78rem;
+}
+.fs-btn-round {
+  border-radius: 1000px;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  text-align: center;
+}
+.fs-btn-round:hover {
+  background-color: #ec0b1e;
+}
+.fs-primary-bg {
+  background-color: #ec0b1e  !important;
+}
+.fs-btn.fs-primary-bg:hover {
+  background-color: #ec4150  !important;
+}
+.file-list {
+  overflow-y: auto;
+  border: 1px #cccccc solid;
+  position: relative;
+}
+.file-list-ol {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffffeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fs-list-item {
+  border-bottom: 1px #ccc solid;
+  display: flex;
+  position: relative;
+  padding: 0.5rem 1rem;
+}
+.fs-list-item.uploading {
+  opacity: 0.3;
+}
+.fs-list-item:hover {
+  background-color: #f9f9f9;
+}
+.fs-list-item-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2rem;
+  vertical-align: middle;
+  margin-right: auto;
+}
+.fs-list-item-status {
+  font-weight: 400;
+  font-size: 0.78rem;
+  line-height: 2rem;
+  vertical-align: middle;
+  animation: color-change 2s infinite;
+}
+.fs-list-item-btns {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.fs-list-item-btns > button{
+  margin-left: 0.5rem;
+}
+.file-list-light-text {
+  color: #646669;
+}
+.file-item-del-btn {
+  background-color: rgb(227, 235, 241);
+  border-radius: 10rem;
+  border: 0;
+  width: 2.6rem;
+  height: 2.6rem;
+  margin: 0.2rem 1rem;
+}
+.file-item-del-btn:hover{
+  background-color: azure;
+}
+.file-item-ol {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffffb5;
+  display: flex;
+}
+.file-item-ol-buttons {
+  margin-left: auto;
+  margin-right: 0;
+}
+.file-item-ol-btn {
+  height: 100%;
+  padding: 1rem;
+  border: 0;
+  background: rgb(25, 112, 243);
+  color: white;
+  vertical-align: middle;
+}
+.file-item-ol-btn-del {
+  background-color: rgb(240, 66, 66);
+}
+.file-item-ol-label {
+  font-weight: 500;
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1rem;
+}
